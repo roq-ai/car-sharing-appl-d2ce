@@ -1,0 +1,2472 @@
+[
+  {
+    "car": [
+      {
+        "id": "eff24357-3ac4-4a2d-92a0-80871f8728aa",
+        "model": "Toyota Camry",
+        "year": 90024,
+        "color": "Red",
+        "mileage": 58739,
+        "created_at": "2023-10-02T11:35:27.203Z",
+        "updated_at": "2023-10-02T09:04:38.411Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d84d9a39-c899-4df7-8fa7-2c8b3a60c8b2",
+        "model": "Honda Civic",
+        "year": 68667,
+        "color": "Blue",
+        "mileage": 14928,
+        "created_at": "2023-10-03T03:12:10.996Z",
+        "updated_at": "2023-10-02T06:55:21.316Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee987836-5d35-465b-b780-200a66e502c9",
+        "model": "Ford Mustang",
+        "year": 64569,
+        "color": "Green",
+        "mileage": 67425,
+        "created_at": "2023-10-03T00:00:27.539Z",
+        "updated_at": "2023-10-03T05:16:12.015Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00227611-faff-40d1-bb62-38c204319fc2",
+        "model": "Chevrolet Silverado",
+        "year": 51623,
+        "color": "Black",
+        "mileage": 96420,
+        "created_at": "2023-10-02T15:35:14.096Z",
+        "updated_at": "2023-10-02T20:22:29.002Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15e91a0a-4547-4e0d-a647-07af81c9924b",
+        "model": "BMW 3 Series",
+        "year": 80983,
+        "color": "White",
+        "mileage": 96608,
+        "created_at": "2023-10-03T04:19:53.542Z",
+        "updated_at": "2023-10-02T20:11:20.063Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "acd6d309-24d6-4352-8113-18ead9f9f8ea",
+        "rating": 94916,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T11:54:52.369Z",
+        "updated_at": "2023-10-02T23:58:11.996Z",
+        "car_id": "d84d9a39-c899-4df7-8fa7-2c8b3a60c8b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4b2251f-45c9-4bec-ab28-e8a9f0143149",
+        "rating": 79308,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-02T09:44:14.310Z",
+        "updated_at": "2023-10-03T00:03:41.777Z",
+        "car_id": "eff24357-3ac4-4a2d-92a0-80871f8728aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b3ca4df-c1b9-4e38-9322-b57dde9b6aae",
+        "rating": 53262,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-02T22:53:23.075Z",
+        "updated_at": "2023-10-02T08:02:17.204Z",
+        "car_id": "00227611-faff-40d1-bb62-38c204319fc2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93a6fff2-b1f6-4b04-a547-7a05be88db8b",
+        "rating": 54804,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-02T18:00:20.140Z",
+        "updated_at": "2023-10-02T08:47:10.805Z",
+        "car_id": "00227611-faff-40d1-bb62-38c204319fc2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "448bb841-aa79-4074-ad91-06b19797bd76",
+        "rating": 32416,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T12:07:19.636Z",
+        "updated_at": "2023-10-02T21:09:58.046Z",
+        "car_id": "ee987836-5d35-465b-b780-200a66e502c9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "be56c735-41b6-4521-9b40-655c075d5410",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T16:57:05.715Z",
+        "updated_at": "2023-10-02T06:48:57.288Z",
+        "car_id": "ee987836-5d35-465b-b780-200a66e502c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdd87908-9055-4842-bf62-3a1865ca3f59",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-02T23:13:13.749Z",
+        "updated_at": "2023-10-02T17:46:10.423Z",
+        "car_id": "ee987836-5d35-465b-b780-200a66e502c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec5aba44-f3ca-44d2-95fe-a11a256230ed",
+        "issue": "Security vulnerability",
+        "status": "Resolved",
+        "created_at": "2023-10-02T16:15:19.305Z",
+        "updated_at": "2023-10-02T20:56:13.546Z",
+        "car_id": "ee987836-5d35-465b-b780-200a66e502c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a54ff221-b19c-4710-bc4a-96613ef0b4c8",
+        "issue": "Performance problem",
+        "status": "Closed",
+        "created_at": "2023-10-02T21:21:24.892Z",
+        "updated_at": "2023-10-02T10:23:11.306Z",
+        "car_id": "15e91a0a-4547-4e0d-a647-07af81c9924b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13eb45d8-bd61-4530-985d-244107db97d9",
+        "issue": "Data inconsistency",
+        "status": "Reopened",
+        "created_at": "2023-10-02T18:45:13.611Z",
+        "updated_at": "2023-10-02T16:33:29.679Z",
+        "car_id": "15e91a0a-4547-4e0d-a647-07af81c9924b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "56e021a2-eccd-4c6e-815b-ba81e58d9497",
+        "start_date": "2023-10-02T10:26:11.074Z",
+        "end_date": "2023-10-03T02:38:07.666Z",
+        "total_price": 99299,
+        "created_at": "2023-10-03T02:22:46.920Z",
+        "updated_at": "2023-10-02T12:06:27.027Z",
+        "car_id": "00227611-faff-40d1-bb62-38c204319fc2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4da2cd9-2110-48cd-919a-22929e20f786",
+        "start_date": "2023-10-02T12:31:01.694Z",
+        "end_date": "2023-10-03T01:02:35.256Z",
+        "total_price": 61281,
+        "created_at": "2023-10-02T22:14:11.656Z",
+        "updated_at": "2023-10-02T14:34:00.736Z",
+        "car_id": "15e91a0a-4547-4e0d-a647-07af81c9924b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e360b82-56df-4829-97e0-b274b1704c9c",
+        "start_date": "2023-10-03T05:13:55.358Z",
+        "end_date": "2023-10-02T10:01:26.711Z",
+        "total_price": 84851,
+        "created_at": "2023-10-02T14:20:00.814Z",
+        "updated_at": "2023-10-03T01:26:53.309Z",
+        "car_id": "15e91a0a-4547-4e0d-a647-07af81c9924b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ac96a74-af26-4989-946f-7cb0ed38538b",
+        "start_date": "2023-10-03T01:30:04.986Z",
+        "end_date": "2023-10-02T07:02:05.559Z",
+        "total_price": 20617,
+        "created_at": "2023-10-02T10:50:32.171Z",
+        "updated_at": "2023-10-02T10:22:27.732Z",
+        "car_id": "15e91a0a-4547-4e0d-a647-07af81c9924b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9fa49d8-43bc-428c-b927-28f9f39fad2f",
+        "start_date": "2023-10-03T02:18:15.930Z",
+        "end_date": "2023-10-03T03:38:22.517Z",
+        "total_price": 31302,
+        "created_at": "2023-10-03T03:22:19.393Z",
+        "updated_at": "2023-10-03T05:26:10.701Z",
+        "car_id": "d84d9a39-c899-4df7-8fa7-2c8b3a60c8b2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a871cf11-74b5-4848-b017-e3afd5ad3612",
+        "email": "Anthony.Wyman@roq.tech",
+        "firstName": "Devyn",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51807440",
+        "tenantId": null
+      },
+      {
+        "reference": "b4a85488-1255-40ed-bbb3-945fd0cc637a",
+        "email": "Yasmine.Pagac@roq.tech",
+        "firstName": "Emiliano",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92488593",
+        "tenantId": null
+      },
+      {
+        "reference": "0a1d517f-11ec-43ab-aed8-d19e2b873bc7",
+        "email": "Savannah65@roq.tech",
+        "firstName": "Vern",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14896100",
+        "tenantId": null
+      },
+      {
+        "reference": "e51d6228-43d1-499a-a5a6-2223171e41ec",
+        "email": "Elsa.Hessel@roq.tech",
+        "firstName": "Lucious",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/16.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b8b1a7d-28e0-405d-afed-a684061b1dd0",
+        "email": "Leanna82@roq.tech",
+        "firstName": "Leonora",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/164.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "5bf1cea7-5101-4cf4-8f89-8f6d30d8281e",
+        "model": "Toyota Camry",
+        "year": 85337,
+        "color": "Red",
+        "mileage": 77844,
+        "created_at": "2023-10-02T18:03:35.919Z",
+        "updated_at": "2023-10-02T19:24:11.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a98a55c4-b711-4b0c-a69c-4098224c5b14",
+        "model": "Honda Civic",
+        "year": 3558,
+        "color": "Blue",
+        "mileage": 4566,
+        "created_at": "2023-10-02T21:06:29.391Z",
+        "updated_at": "2023-10-02T20:19:30.939Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ba63a1e-465c-408a-b140-f7f78ed507c0",
+        "model": "Ford Mustang",
+        "year": 4264,
+        "color": "Green",
+        "mileage": 23346,
+        "created_at": "2023-10-02T18:42:49.632Z",
+        "updated_at": "2023-10-02T17:22:53.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6e0107d-10d8-43f8-8499-d542a0c2ddbb",
+        "model": "Chevrolet Silverado",
+        "year": 47216,
+        "color": "Black",
+        "mileage": 30470,
+        "created_at": "2023-10-03T04:23:42.930Z",
+        "updated_at": "2023-10-02T10:21:57.166Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f59137f1-5ebc-4c20-a592-fa5c8dd8c63c",
+        "model": "BMW 3 Series",
+        "year": 28346,
+        "color": "White",
+        "mileage": 35488,
+        "created_at": "2023-10-02T23:40:42.473Z",
+        "updated_at": "2023-10-02T20:29:50.885Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "db21dfbe-2796-43b2-9abb-81afc77b642c",
+        "rating": 88173,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T07:51:57.459Z",
+        "updated_at": "2023-10-02T23:30:50.150Z",
+        "car_id": "5ba63a1e-465c-408a-b140-f7f78ed507c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63279d3d-7e8b-4a19-b0ea-e70e3e0672e8",
+        "rating": 24176,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-03T05:38:51.635Z",
+        "updated_at": "2023-10-02T08:35:33.403Z",
+        "car_id": "5ba63a1e-465c-408a-b140-f7f78ed507c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74d2cdcd-6391-4d61-962b-f22d6369ddc4",
+        "rating": 28515,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-03T02:07:53.073Z",
+        "updated_at": "2023-10-03T03:24:10.647Z",
+        "car_id": "f59137f1-5ebc-4c20-a592-fa5c8dd8c63c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22b7de89-dc43-4318-bccb-076dcd101843",
+        "rating": 35711,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-03T04:46:59.090Z",
+        "updated_at": "2023-10-03T01:40:16.204Z",
+        "car_id": "5bf1cea7-5101-4cf4-8f89-8f6d30d8281e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11f65413-2751-44f4-8b29-496bfc5f1d9d",
+        "rating": 83119,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T07:20:36.738Z",
+        "updated_at": "2023-10-03T04:26:35.890Z",
+        "car_id": "5ba63a1e-465c-408a-b140-f7f78ed507c0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "165dac16-66d1-4e81-b664-da92c044770d",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T13:16:16.243Z",
+        "updated_at": "2023-10-02T10:07:41.803Z",
+        "car_id": "5ba63a1e-465c-408a-b140-f7f78ed507c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9d507b5-4eef-48a9-b427-b9a4f31993c8",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-02T07:13:16.724Z",
+        "updated_at": "2023-10-02T21:42:11.534Z",
+        "car_id": "d6e0107d-10d8-43f8-8499-d542a0c2ddbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c033bfd0-37ab-4ce1-9c1a-852c5f2c1473",
+        "issue": "Security vulnerability",
+        "status": "Resolved",
+        "created_at": "2023-10-02T21:40:20.392Z",
+        "updated_at": "2023-10-02T10:13:36.092Z",
+        "car_id": "f59137f1-5ebc-4c20-a592-fa5c8dd8c63c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b430d464-b6bd-49b7-8cff-8864abefb2ac",
+        "issue": "Performance bottleneck",
+        "status": "Closed",
+        "created_at": "2023-10-03T05:58:20.641Z",
+        "updated_at": "2023-10-02T23:45:37.808Z",
+        "car_id": "f59137f1-5ebc-4c20-a592-fa5c8dd8c63c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed1dcc55-8ca6-4a91-bdd9-d6713714d6fe",
+        "issue": "Data inconsistency",
+        "status": "Reopened",
+        "created_at": "2023-10-03T05:49:51.858Z",
+        "updated_at": "2023-10-02T08:10:43.540Z",
+        "car_id": "f59137f1-5ebc-4c20-a592-fa5c8dd8c63c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b4e53643-ed4c-44bb-977a-cd5d0004a919",
+        "start_date": "2023-10-02T12:55:10.478Z",
+        "end_date": "2023-10-02T09:59:49.942Z",
+        "total_price": 36307,
+        "created_at": "2023-10-02T17:28:59.452Z",
+        "updated_at": "2023-10-02T18:48:58.176Z",
+        "car_id": "f59137f1-5ebc-4c20-a592-fa5c8dd8c63c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5899b5ed-0b91-4b31-83b8-c5db1b656a2f",
+        "start_date": "2023-10-02T21:33:31.455Z",
+        "end_date": "2023-10-02T09:08:30.164Z",
+        "total_price": 24003,
+        "created_at": "2023-10-03T02:33:27.359Z",
+        "updated_at": "2023-10-02T13:31:09.734Z",
+        "car_id": "5bf1cea7-5101-4cf4-8f89-8f6d30d8281e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1baaeff-f78b-4f6b-9cd3-f72ef0ec820d",
+        "start_date": "2023-10-02T23:25:41.436Z",
+        "end_date": "2023-10-02T23:20:07.167Z",
+        "total_price": 21445,
+        "created_at": "2023-10-02T23:36:00.271Z",
+        "updated_at": "2023-10-03T05:44:12.147Z",
+        "car_id": "5ba63a1e-465c-408a-b140-f7f78ed507c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c1552e8-699b-4c10-95bc-974a6d668786",
+        "start_date": "2023-10-02T10:11:50.123Z",
+        "end_date": "2023-10-02T06:26:58.347Z",
+        "total_price": 97703,
+        "created_at": "2023-10-02T10:20:59.995Z",
+        "updated_at": "2023-10-02T11:07:04.499Z",
+        "car_id": "d6e0107d-10d8-43f8-8499-d542a0c2ddbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42614b8a-b4f5-405a-89a8-7a45d8d293fd",
+        "start_date": "2023-10-03T04:47:25.326Z",
+        "end_date": "2023-10-02T10:01:19.594Z",
+        "total_price": 33311,
+        "created_at": "2023-10-02T18:06:22.332Z",
+        "updated_at": "2023-10-02T13:49:03.647Z",
+        "car_id": "a98a55c4-b711-4b0c-a69c-4098224c5b14",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9fe4b1c3-4c91-41b9-8062-0dcd0a5bd7d5",
+        "email": "Muhammad.Kuhn54@roq.tech",
+        "firstName": "Rodolfo",
+        "lastName": "Koss-Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51009607",
+        "tenantId": null
+      },
+      {
+        "reference": "b9240fd1-cb95-408e-adaf-dec5c81a55d1",
+        "email": "Mireya_Armstrong@roq.tech",
+        "firstName": "Simeon",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/851.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c7052ae-55fe-4d65-8044-3ef6d4aaa66c",
+        "email": "Mozelle29@roq.tech",
+        "firstName": "Fausto",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1010.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "873fa1ea-1a1c-4bcf-b343-e0697f5b9eee",
+        "email": "Ambrose71@roq.tech",
+        "firstName": "Nedra",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/626.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb711a2d-6835-4f59-a34e-a176174fcfa2",
+        "email": "Malvina.Bailey36@roq.tech",
+        "firstName": "Jamir",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84517054",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "7cb3d33a-3732-4ef8-bff1-b2aaa5e10f97",
+        "model": "Toyota Camry",
+        "year": 92769,
+        "color": "Red",
+        "mileage": 46896,
+        "created_at": "2023-10-03T04:44:31.319Z",
+        "updated_at": "2023-10-02T11:27:00.938Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fe2a746-04b4-47ad-b3f7-13555976b693",
+        "model": "Honda Civic",
+        "year": 50627,
+        "color": "Blue",
+        "mileage": 88132,
+        "created_at": "2023-10-02T21:41:50.137Z",
+        "updated_at": "2023-10-02T14:43:22.014Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f72ec3c-7f52-40d4-b51c-f28ecfa7b837",
+        "model": "Ford Mustang",
+        "year": 7497,
+        "color": "Black",
+        "mileage": 57662,
+        "created_at": "2023-10-03T04:37:59.713Z",
+        "updated_at": "2023-10-02T17:56:13.642Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dba3c09-f279-4e33-a778-2ee118698120",
+        "model": "Chevrolet Silverado",
+        "year": 4038,
+        "color": "White",
+        "mileage": 7139,
+        "created_at": "2023-10-02T17:31:40.709Z",
+        "updated_at": "2023-10-02T23:46:42.238Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80bd25a1-14cb-4390-a6e7-d13f246a2a92",
+        "model": "BMW X5",
+        "year": 90600,
+        "color": "Silver",
+        "mileage": 49277,
+        "created_at": "2023-10-03T02:31:00.277Z",
+        "updated_at": "2023-10-02T23:03:43.502Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "d9958fa4-96e5-4a84-b4e5-d70f315272f3",
+        "rating": 64631,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T07:53:51.212Z",
+        "updated_at": "2023-10-02T14:56:29.079Z",
+        "car_id": "4f72ec3c-7f52-40d4-b51c-f28ecfa7b837",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad8dc399-02e9-425f-8457-3126cd15ffeb",
+        "rating": 18883,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-02T23:54:07.802Z",
+        "updated_at": "2023-10-02T10:03:08.602Z",
+        "car_id": "1fe2a746-04b4-47ad-b3f7-13555976b693",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71403d38-cac4-4065-bc6b-38c6d8f1e532",
+        "rating": 80620,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-03T04:12:26.548Z",
+        "updated_at": "2023-10-02T11:56:05.879Z",
+        "car_id": "4f72ec3c-7f52-40d4-b51c-f28ecfa7b837",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e4f2a82-523c-43eb-a30e-ab8233c03729",
+        "rating": 89996,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-02T12:51:18.914Z",
+        "updated_at": "2023-10-02T08:05:29.310Z",
+        "car_id": "0dba3c09-f279-4e33-a778-2ee118698120",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a15ee90-be05-4131-bc04-dacc26bea18f",
+        "rating": 74104,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T19:49:31.855Z",
+        "updated_at": "2023-10-03T03:47:26.255Z",
+        "car_id": "80bd25a1-14cb-4390-a6e7-d13f246a2a92",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "ec9f38c8-d1a6-46d7-8b6d-e87e214e0801",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T22:55:00.430Z",
+        "updated_at": "2023-10-02T08:09:24.922Z",
+        "car_id": "80bd25a1-14cb-4390-a6e7-d13f246a2a92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8e14aad-7154-4774-b192-57f5cba9d268",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-03T02:47:11.028Z",
+        "updated_at": "2023-10-02T21:22:26.386Z",
+        "car_id": "7cb3d33a-3732-4ef8-bff1-b2aaa5e10f97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d657797-582b-4793-987f-70114d8f924e",
+        "issue": "Security vulnerability",
+        "status": "Resolved",
+        "created_at": "2023-10-03T02:18:35.453Z",
+        "updated_at": "2023-10-02T18:45:32.524Z",
+        "car_id": "4f72ec3c-7f52-40d4-b51c-f28ecfa7b837",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fe5f5c7-6fdf-4311-84ae-584f9bb9abf0",
+        "issue": "Performance problem",
+        "status": "Closed",
+        "created_at": "2023-10-02T11:53:00.399Z",
+        "updated_at": "2023-10-02T21:42:57.305Z",
+        "car_id": "80bd25a1-14cb-4390-a6e7-d13f246a2a92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3175f7f7-c6c3-4fb2-a3cf-bb3f10a51632",
+        "issue": "Data inconsistency",
+        "status": "Reopened",
+        "created_at": "2023-10-02T08:21:07.365Z",
+        "updated_at": "2023-10-02T13:57:23.135Z",
+        "car_id": "7cb3d33a-3732-4ef8-bff1-b2aaa5e10f97",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "67fce7d9-d935-4dbe-8d54-806ecb289f1f",
+        "start_date": "2023-10-02T17:35:37.254Z",
+        "end_date": "2023-10-02T16:19:39.846Z",
+        "total_price": 66593,
+        "created_at": "2023-10-02T09:37:14.086Z",
+        "updated_at": "2023-10-02T11:48:50.031Z",
+        "car_id": "7cb3d33a-3732-4ef8-bff1-b2aaa5e10f97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4106b23c-3f80-4d06-9ccd-33a03b0dc7c5",
+        "start_date": "2023-10-02T16:08:37.141Z",
+        "end_date": "2023-10-02T07:49:58.873Z",
+        "total_price": 82665,
+        "created_at": "2023-10-02T22:59:16.199Z",
+        "updated_at": "2023-10-02T08:40:46.952Z",
+        "car_id": "0dba3c09-f279-4e33-a778-2ee118698120",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a36d7e20-c687-40c0-aaae-3bcd95efb22e",
+        "start_date": "2023-10-02T14:50:24.572Z",
+        "end_date": "2023-10-02T13:31:37.085Z",
+        "total_price": 95023,
+        "created_at": "2023-10-02T08:39:58.775Z",
+        "updated_at": "2023-10-02T21:13:49.522Z",
+        "car_id": "7cb3d33a-3732-4ef8-bff1-b2aaa5e10f97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5923fa2f-b66b-4a95-be27-6ee4f6c1d0cf",
+        "start_date": "2023-10-02T17:50:07.197Z",
+        "end_date": "2023-10-02T11:08:59.210Z",
+        "total_price": 56959,
+        "created_at": "2023-10-02T21:28:34.470Z",
+        "updated_at": "2023-10-02T13:27:33.216Z",
+        "car_id": "0dba3c09-f279-4e33-a778-2ee118698120",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "451eaf9d-3ea5-4412-bd9f-37928c361419",
+        "start_date": "2023-10-02T23:19:27.922Z",
+        "end_date": "2023-10-03T02:56:27.781Z",
+        "total_price": 75312,
+        "created_at": "2023-10-02T22:14:04.005Z",
+        "updated_at": "2023-10-02T06:28:50.433Z",
+        "car_id": "4f72ec3c-7f52-40d4-b51c-f28ecfa7b837",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cfed0a21-2cbd-4487-8ccf-6d2436c025b5",
+        "email": "Kian_Fahey@roq.tech",
+        "firstName": "Josie",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69528748",
+        "tenantId": null
+      },
+      {
+        "reference": "3aea048d-6ee0-4ff7-b415-448cd11950d6",
+        "email": "Leopoldo_Koelpin15@roq.tech",
+        "firstName": "Pauline",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15986621",
+        "tenantId": null
+      },
+      {
+        "reference": "1bc01d75-4615-4900-b120-46395ae58b25",
+        "email": "Conrad.Kling13@roq.tech",
+        "firstName": "Zetta",
+        "lastName": "Bernhard-Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74193821",
+        "tenantId": null
+      },
+      {
+        "reference": "b3cd92f5-0633-417b-af9a-535c788eef3a",
+        "email": "Alexis_Jenkins46@roq.tech",
+        "firstName": "Danika",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39696562",
+        "tenantId": null
+      },
+      {
+        "reference": "8f8990ae-2532-4ac2-8d96-6261077ef25c",
+        "email": "Antone40@roq.tech",
+        "firstName": "Guy",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12181764",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "45540e89-15b8-47a7-a31f-df2a6d5d41e5",
+        "model": "Toyota Camry",
+        "year": 85530,
+        "color": "Red",
+        "mileage": 87119,
+        "created_at": "2023-10-02T07:50:51.428Z",
+        "updated_at": "2023-10-03T01:22:37.561Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4142617d-a8d7-40a2-9064-2d25c3cf60de",
+        "model": "Honda Civic",
+        "year": 69669,
+        "color": "Blue",
+        "mileage": 12931,
+        "created_at": "2023-10-02T10:35:23.639Z",
+        "updated_at": "2023-10-02T16:54:32.926Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e1a499e-9c28-40f6-ba50-6653f5d445e9",
+        "model": "Ford Mustang",
+        "year": 31660,
+        "color": "Green",
+        "mileage": 92292,
+        "created_at": "2023-10-02T13:31:04.334Z",
+        "updated_at": "2023-10-03T01:19:20.984Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "model": "Chevrolet Silverado",
+        "year": 62471,
+        "color": "Silver",
+        "mileage": 10183,
+        "created_at": "2023-10-03T02:42:49.343Z",
+        "updated_at": "2023-10-02T16:35:15.920Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65a0d916-e8af-45e2-b8b4-f6c979f43707",
+        "model": "BMW 3 Series",
+        "year": 55659,
+        "color": "Black",
+        "mileage": 73205,
+        "created_at": "2023-10-02T14:38:25.584Z",
+        "updated_at": "2023-10-02T22:47:34.221Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "a83b61b7-650a-4dd8-8fc4-5ab8e3bd7925",
+        "rating": 33919,
+        "comment": "Great product!",
+        "created_at": "2023-10-03T02:33:54.979Z",
+        "updated_at": "2023-10-03T02:09:52.882Z",
+        "car_id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95d13ed4-6b80-4202-b836-8d8fe195f6c8",
+        "rating": 80515,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-02T21:54:27.276Z",
+        "updated_at": "2023-10-03T01:11:40.173Z",
+        "car_id": "4142617d-a8d7-40a2-9064-2d25c3cf60de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cb3de31-ece9-430a-8127-dd674d921385",
+        "rating": 22527,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-02T23:14:36.762Z",
+        "updated_at": "2023-10-02T19:43:48.267Z",
+        "car_id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15a0054d-1cd0-4425-ad94-5553108226aa",
+        "rating": 72252,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-02T23:06:18.771Z",
+        "updated_at": "2023-10-02T21:02:54.033Z",
+        "car_id": "65a0d916-e8af-45e2-b8b4-f6c979f43707",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6138217-8e8b-40d2-94ff-e1806161af3f",
+        "rating": 37900,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T16:13:04.703Z",
+        "updated_at": "2023-10-02T11:56:46.946Z",
+        "car_id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "4e1e9de4-abc1-4a06-ace8-6d7278ecbc96",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T14:17:14.088Z",
+        "updated_at": "2023-10-02T17:20:49.857Z",
+        "car_id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0235375-dec8-4880-bb1f-7c6daba9b9e4",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-02T18:10:41.299Z",
+        "updated_at": "2023-10-02T07:52:30.510Z",
+        "car_id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a66813e1-e5ed-4f60-b378-bc1b30cc32f9",
+        "issue": "Security vulnerability",
+        "status": "Resolved",
+        "created_at": "2023-10-02T09:51:41.440Z",
+        "updated_at": "2023-10-02T14:55:48.675Z",
+        "car_id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e033d08f-7c95-41d0-9321-3408b29de060",
+        "issue": "Performance problem",
+        "status": "Closed",
+        "created_at": "2023-10-02T22:15:12.676Z",
+        "updated_at": "2023-10-02T13:40:26.861Z",
+        "car_id": "65a0d916-e8af-45e2-b8b4-f6c979f43707",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9853fe6-8e85-48df-aa94-70fc4223e13c",
+        "issue": "Data inconsistency",
+        "status": "Reopened",
+        "created_at": "2023-10-02T10:14:36.759Z",
+        "updated_at": "2023-10-03T02:11:45.995Z",
+        "car_id": "5e1a499e-9c28-40f6-ba50-6653f5d445e9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "da8299af-43a5-4ae3-babf-08d3facc8917",
+        "start_date": "2023-10-03T05:21:53.351Z",
+        "end_date": "2023-10-03T01:39:18.454Z",
+        "total_price": 97435,
+        "created_at": "2023-10-02T20:07:15.029Z",
+        "updated_at": "2023-10-02T14:02:13.484Z",
+        "car_id": "5e1a499e-9c28-40f6-ba50-6653f5d445e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "681ed267-8a30-4e02-8257-3964db713d1a",
+        "start_date": "2023-10-03T00:23:45.382Z",
+        "end_date": "2023-10-02T15:22:19.908Z",
+        "total_price": 33460,
+        "created_at": "2023-10-03T04:55:21.853Z",
+        "updated_at": "2023-10-02T10:30:56.407Z",
+        "car_id": "45540e89-15b8-47a7-a31f-df2a6d5d41e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "847313f2-a09e-4c8f-b6a0-58961de2e801",
+        "start_date": "2023-10-03T01:44:23.666Z",
+        "end_date": "2023-10-02T16:51:03.946Z",
+        "total_price": 149,
+        "created_at": "2023-10-02T09:10:15.230Z",
+        "updated_at": "2023-10-02T15:36:56.457Z",
+        "car_id": "41bf38ce-09c3-4f51-9c13-5dae3598bd20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aa498a8-373d-4d61-bfed-913adf6e0659",
+        "start_date": "2023-10-02T23:59:55.731Z",
+        "end_date": "2023-10-02T10:33:38.373Z",
+        "total_price": 41842,
+        "created_at": "2023-10-03T03:11:39.821Z",
+        "updated_at": "2023-10-03T03:17:55.724Z",
+        "car_id": "4142617d-a8d7-40a2-9064-2d25c3cf60de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d947f77-cf61-4613-9c64-25cec636e9d0",
+        "start_date": "2023-10-03T05:05:23.630Z",
+        "end_date": "2023-10-02T19:06:27.559Z",
+        "total_price": 66282,
+        "created_at": "2023-10-02T14:26:42.949Z",
+        "updated_at": "2023-10-03T05:41:36.513Z",
+        "car_id": "5e1a499e-9c28-40f6-ba50-6653f5d445e9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d29edc4d-a512-41b3-831d-1b0261693bb8",
+        "email": "Eula_Gerlach52@roq.tech",
+        "firstName": "Abagail",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34524481-9cee-4479-80ef-21b518fb925f",
+        "email": "Tre43@roq.tech",
+        "firstName": "Marjorie",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65908253",
+        "tenantId": null
+      },
+      {
+        "reference": "dfca20f7-933e-44ce-a739-bc3c5aa3e5f4",
+        "email": "Taurean_Sporer90@roq.tech",
+        "firstName": "Asa",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8919696",
+        "tenantId": null
+      },
+      {
+        "reference": "daceed4c-b24a-4a61-bfe7-8ff6f5fd56c1",
+        "email": "Diego.Klocko99@roq.tech",
+        "firstName": "Roberto",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/976.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ddf0bd1-b978-4baa-b16f-d839e753ad22",
+        "email": "Angelo40@roq.tech",
+        "firstName": "Delpha",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/75.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "1ad79a10-61c7-4733-a80a-f213b6db8efc",
+        "model": "Toyota Camry",
+        "year": 91811,
+        "color": "Red",
+        "mileage": 19958,
+        "created_at": "2023-10-03T05:12:37.678Z",
+        "updated_at": "2023-10-02T17:34:39.104Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "553156ae-aa8d-4c6c-83bb-d9aa4973207d",
+        "model": "Honda Civic",
+        "year": 25138,
+        "color": "Blue",
+        "mileage": 86526,
+        "created_at": "2023-10-02T15:13:20.106Z",
+        "updated_at": "2023-10-03T02:52:18.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa924013-db89-4a39-8302-ccf18950ed93",
+        "model": "Ford Mustang",
+        "year": 43510,
+        "color": "Black",
+        "mileage": 6715,
+        "created_at": "2023-10-02T19:58:32.133Z",
+        "updated_at": "2023-10-02T23:33:41.655Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9b91858-4b13-4bf9-9e3b-59e6554ef3f4",
+        "model": "Chevrolet Silverado",
+        "year": 26744,
+        "color": "White",
+        "mileage": 90394,
+        "created_at": "2023-10-03T01:34:45.819Z",
+        "updated_at": "2023-10-02T16:35:52.573Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5616d580-fe7e-433c-88c4-d3913db387ac",
+        "model": "BMW 3 Series",
+        "year": 76410,
+        "color": "Silver",
+        "mileage": 85352,
+        "created_at": "2023-10-03T01:03:18.723Z",
+        "updated_at": "2023-10-03T01:05:53.573Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "6ad87e51-3e5f-4566-9bdd-e12311f81352",
+        "rating": 76207,
+        "comment": "Great product!",
+        "created_at": "2023-10-03T06:23:39.621Z",
+        "updated_at": "2023-10-02T18:36:21.485Z",
+        "car_id": "553156ae-aa8d-4c6c-83bb-d9aa4973207d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1eb8f10-1365-4130-b6aa-6520c30a70b8",
+        "rating": 43146,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-02T15:42:15.612Z",
+        "updated_at": "2023-10-02T17:55:26.107Z",
+        "car_id": "5616d580-fe7e-433c-88c4-d3913db387ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "209f239c-63c1-4bd7-8731-bbe89dafcb46",
+        "rating": 86501,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-02T10:17:08.594Z",
+        "updated_at": "2023-10-02T09:17:31.076Z",
+        "car_id": "1ad79a10-61c7-4733-a80a-f213b6db8efc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f8e9ace-35d9-4102-81dc-880d92af5f34",
+        "rating": 13796,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-02T22:09:07.629Z",
+        "updated_at": "2023-10-03T03:55:35.059Z",
+        "car_id": "553156ae-aa8d-4c6c-83bb-d9aa4973207d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48bed95f-242b-422c-886c-baab9adec683",
+        "rating": 82314,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T08:39:25.753Z",
+        "updated_at": "2023-10-02T11:18:38.868Z",
+        "car_id": "aa924013-db89-4a39-8302-ccf18950ed93",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "ed34e5a0-bb6f-4ddb-a211-a21a72d2a94e",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T12:11:35.650Z",
+        "updated_at": "2023-10-02T16:41:21.974Z",
+        "car_id": "aa924013-db89-4a39-8302-ccf18950ed93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0359ca84-136b-48e0-a502-78ecb0f63893",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-03T02:00:06.807Z",
+        "updated_at": "2023-10-02T12:50:20.059Z",
+        "car_id": "e9b91858-4b13-4bf9-9e3b-59e6554ef3f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f986b7d-c070-458e-a7da-1f3c8ba6f2f9",
+        "issue": "Security vulnerability",
+        "status": "Resolved",
+        "created_at": "2023-10-02T14:26:40.411Z",
+        "updated_at": "2023-10-03T02:44:51.656Z",
+        "car_id": "5616d580-fe7e-433c-88c4-d3913db387ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9dd1886-9c91-466b-a44d-ebbe36f78e2a",
+        "issue": "Performance bottleneck",
+        "status": "Closed",
+        "created_at": "2023-10-02T07:48:33.909Z",
+        "updated_at": "2023-10-03T03:21:56.363Z",
+        "car_id": "5616d580-fe7e-433c-88c4-d3913db387ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9f72d7d-53af-4a87-9c3d-0a481fcc9124",
+        "issue": "Data inconsistency",
+        "status": "Reopened",
+        "created_at": "2023-10-02T13:35:44.442Z",
+        "updated_at": "2023-10-02T14:59:50.760Z",
+        "car_id": "1ad79a10-61c7-4733-a80a-f213b6db8efc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "63efe138-42a0-4695-968d-485658ce14b8",
+        "start_date": "2023-10-03T00:22:43.151Z",
+        "end_date": "2023-10-03T00:06:59.710Z",
+        "total_price": 82784,
+        "created_at": "2023-10-02T20:11:28.633Z",
+        "updated_at": "2023-10-03T00:47:07.949Z",
+        "car_id": "5616d580-fe7e-433c-88c4-d3913db387ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcbc19cd-0617-41f2-8030-e472238657b2",
+        "start_date": "2023-10-02T11:00:52.148Z",
+        "end_date": "2023-10-02T16:01:05.847Z",
+        "total_price": 26365,
+        "created_at": "2023-10-02T06:53:58.483Z",
+        "updated_at": "2023-10-02T18:47:34.973Z",
+        "car_id": "553156ae-aa8d-4c6c-83bb-d9aa4973207d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a881aae-c62f-44b1-89ad-cb365f038ebd",
+        "start_date": "2023-10-02T20:19:56.948Z",
+        "end_date": "2023-10-02T14:16:39.808Z",
+        "total_price": 61136,
+        "created_at": "2023-10-03T01:55:00.685Z",
+        "updated_at": "2023-10-02T07:50:19.833Z",
+        "car_id": "aa924013-db89-4a39-8302-ccf18950ed93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f293ae3-e362-4b8e-a697-740c6c997f11",
+        "start_date": "2023-10-03T03:24:54.694Z",
+        "end_date": "2023-10-03T01:50:50.792Z",
+        "total_price": 87693,
+        "created_at": "2023-10-02T07:44:40.152Z",
+        "updated_at": "2023-10-02T10:23:11.082Z",
+        "car_id": "1ad79a10-61c7-4733-a80a-f213b6db8efc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c373aaf8-79bd-4f25-b3be-974368e20902",
+        "start_date": "2023-10-02T12:15:44.436Z",
+        "end_date": "2023-10-02T20:09:26.503Z",
+        "total_price": 13422,
+        "created_at": "2023-10-02T15:39:25.207Z",
+        "updated_at": "2023-10-03T04:53:07.377Z",
+        "car_id": "e9b91858-4b13-4bf9-9e3b-59e6554ef3f4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6bb68b77-c2c6-4fa8-80b9-433d24dd4ce3",
+        "email": "Orland.Dooley@roq.tech",
+        "firstName": "Paige",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/821.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7af2a4e5-300e-4e50-84ed-3ea417f228a5",
+        "email": "Madaline26@roq.tech",
+        "firstName": "George",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97046792",
+        "tenantId": null
+      },
+      {
+        "reference": "c26ad29b-ee86-455d-ae79-d0f1dba5accc",
+        "email": "General_Kihn28@roq.tech",
+        "firstName": "Cheyenne",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14070895",
+        "tenantId": null
+      },
+      {
+        "reference": "5016507f-6fe2-4937-9f72-0b960423e09d",
+        "email": "Eula.Beer@roq.tech",
+        "firstName": "Favian",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45661060",
+        "tenantId": null
+      },
+      {
+        "reference": "139fd7a9-9721-45bc-92d9-e717a266c68c",
+        "email": "Idell.Glover76@roq.tech",
+        "firstName": "Lauriane",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60332428",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "52c187bb-bee5-41cc-a108-59449fc2b5a0",
+        "model": "Toyota Camry",
+        "year": 10994,
+        "color": "Red",
+        "mileage": 44776,
+        "created_at": "2023-10-02T17:20:30.530Z",
+        "updated_at": "2023-10-02T21:59:08.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c80a8c7-4d12-44df-8de3-1296cfd43a9b",
+        "model": "Honda Civic",
+        "year": 49466,
+        "color": "Blue",
+        "mileage": 10352,
+        "created_at": "2023-10-02T13:11:17.288Z",
+        "updated_at": "2023-10-02T18:08:39.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd7f22ba-27ca-48b9-87c0-7a77b9c92081",
+        "model": "Ford Mustang",
+        "year": 28229,
+        "color": "Black",
+        "mileage": 96202,
+        "created_at": "2023-10-03T05:34:24.213Z",
+        "updated_at": "2023-10-02T23:57:32.744Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "791995e9-f0a8-441d-b676-24367f5249fd",
+        "model": "Chevrolet Silverado",
+        "year": 2708,
+        "color": "White",
+        "mileage": 38095,
+        "created_at": "2023-10-02T07:56:16.959Z",
+        "updated_at": "2023-10-02T12:03:09.397Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe1a9376-f3b5-45c7-8c1c-0b5331e66bc4",
+        "model": "BMW 3 Series",
+        "year": 57135,
+        "color": "Silver",
+        "mileage": 55030,
+        "created_at": "2023-10-02T07:03:03.255Z",
+        "updated_at": "2023-10-02T07:09:50.834Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "743a6dcb-d624-4f4c-9455-2c7d1780f9e6",
+        "rating": 81781,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T10:19:32.874Z",
+        "updated_at": "2023-10-02T21:59:43.370Z",
+        "car_id": "52c187bb-bee5-41cc-a108-59449fc2b5a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5a6e07a-9022-42f2-8ea6-c56c15aa110b",
+        "rating": 66512,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-03T02:01:27.322Z",
+        "updated_at": "2023-10-02T19:34:07.215Z",
+        "car_id": "52c187bb-bee5-41cc-a108-59449fc2b5a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a450a16b-aed8-4b7f-bc1b-d7216d4f245d",
+        "rating": 88754,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-02T07:50:40.465Z",
+        "updated_at": "2023-10-03T05:33:25.342Z",
+        "car_id": "fe1a9376-f3b5-45c7-8c1c-0b5331e66bc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15c07a4c-72ea-455c-b049-6722d307752c",
+        "rating": 65981,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-02T09:29:53.116Z",
+        "updated_at": "2023-10-02T16:00:28.407Z",
+        "car_id": "fe1a9376-f3b5-45c7-8c1c-0b5331e66bc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4881be4d-8402-4acc-b8ba-7c21e99f8c6c",
+        "rating": 69474,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T08:42:06.674Z",
+        "updated_at": "2023-10-02T20:36:52.213Z",
+        "car_id": "6c80a8c7-4d12-44df-8de3-1296cfd43a9b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "6863748b-c84c-49e3-940b-fc705c338c08",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T19:40:53.507Z",
+        "updated_at": "2023-10-03T04:27:05.376Z",
+        "car_id": "6c80a8c7-4d12-44df-8de3-1296cfd43a9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d3446e0-4094-4aea-a8c0-b9df76520d38",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-02T15:40:55.447Z",
+        "updated_at": "2023-10-03T02:28:36.952Z",
+        "car_id": "6c80a8c7-4d12-44df-8de3-1296cfd43a9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c826a20b-64a4-4383-b120-d3bfa0cb560d",
+        "issue": "Fault",
+        "status": "Resolved",
+        "created_at": "2023-10-02T23:35:37.534Z",
+        "updated_at": "2023-10-02T11:43:09.218Z",
+        "car_id": "6c80a8c7-4d12-44df-8de3-1296cfd43a9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b46ac872-278f-45bd-bd92-afd603147165",
+        "issue": "Problem",
+        "status": "Closed",
+        "created_at": "2023-10-02T09:12:35.584Z",
+        "updated_at": "2023-10-03T03:17:56.314Z",
+        "car_id": "fe1a9376-f3b5-45c7-8c1c-0b5331e66bc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6e3ba69-318e-41b0-abb1-af2e7a008a54",
+        "issue": "Defect",
+        "status": "Pending",
+        "created_at": "2023-10-02T10:04:08.879Z",
+        "updated_at": "2023-10-02T10:55:00.623Z",
+        "car_id": "fd7f22ba-27ca-48b9-87c0-7a77b9c92081",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c5501185-eb83-4f00-8ac8-77af56d9b8fe",
+        "start_date": "2023-10-02T06:45:27.142Z",
+        "end_date": "2023-10-02T18:37:16.139Z",
+        "total_price": 84752,
+        "created_at": "2023-10-03T02:04:20.115Z",
+        "updated_at": "2023-10-02T18:22:40.089Z",
+        "car_id": "fd7f22ba-27ca-48b9-87c0-7a77b9c92081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ef71058-5903-44e7-9788-99cee961c19f",
+        "start_date": "2023-10-02T15:21:57.092Z",
+        "end_date": "2023-10-02T08:55:25.824Z",
+        "total_price": 18990,
+        "created_at": "2023-10-02T11:26:00.735Z",
+        "updated_at": "2023-10-02T14:36:00.904Z",
+        "car_id": "fd7f22ba-27ca-48b9-87c0-7a77b9c92081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a3d2c7-0f7b-4ae3-9ec7-5a7c618fc9a4",
+        "start_date": "2023-10-02T17:10:43.878Z",
+        "end_date": "2023-10-02T19:05:31.348Z",
+        "total_price": 41929,
+        "created_at": "2023-10-02T10:39:04.687Z",
+        "updated_at": "2023-10-03T01:21:33.761Z",
+        "car_id": "52c187bb-bee5-41cc-a108-59449fc2b5a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "724f5a97-eaa9-4510-b521-d9c207d3d1ec",
+        "start_date": "2023-10-02T13:21:19.390Z",
+        "end_date": "2023-10-02T14:07:41.158Z",
+        "total_price": 82304,
+        "created_at": "2023-10-02T13:45:14.291Z",
+        "updated_at": "2023-10-02T11:18:19.070Z",
+        "car_id": "52c187bb-bee5-41cc-a108-59449fc2b5a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da1d0e86-6c81-498e-8afc-9ab556380b59",
+        "start_date": "2023-10-02T13:12:14.840Z",
+        "end_date": "2023-10-02T17:26:23.218Z",
+        "total_price": 51836,
+        "created_at": "2023-10-02T14:15:59.570Z",
+        "updated_at": "2023-10-03T03:47:06.931Z",
+        "car_id": "fe1a9376-f3b5-45c7-8c1c-0b5331e66bc4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e995e5a6-0f08-477b-9c57-8dd7d593e96a",
+        "email": "Cornelius8@roq.tech",
+        "firstName": "Clementina",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "48917331-4bca-4b63-b110-d5ba802df669",
+        "email": "Pierre63@roq.tech",
+        "firstName": "Fernando",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/989.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f1fe36cb-8d85-4fba-9b40-38380fd1d0bc",
+        "email": "Kaelyn_Olson11@roq.tech",
+        "firstName": "Lucinda",
+        "lastName": "Ward-Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/85.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7104fa63-8a82-4089-b8ef-4b2fa8063542",
+        "email": "Earnestine.Collier@roq.tech",
+        "firstName": "Wilma",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/464.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ac703fe-9224-4c87-bac3-6aea789717f3",
+        "email": "Geovanny_Kreiger@roq.tech",
+        "firstName": "Enos",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94145619",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "7e00b90e-c308-476f-9577-fe5d95ac89a2",
+        "model": "Toyota Camry",
+        "year": 42808,
+        "color": "Red",
+        "mileage": 33451,
+        "created_at": "2023-10-02T12:16:00.684Z",
+        "updated_at": "2023-10-02T17:57:27.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2777bff-b27d-4510-8dca-770f9817eccb",
+        "model": "Honda Civic",
+        "year": 61560,
+        "color": "Blue",
+        "mileage": 21616,
+        "created_at": "2023-10-02T22:54:05.350Z",
+        "updated_at": "2023-10-03T02:16:58.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3828d753-b4f7-4e1e-9329-cbe240cd6334",
+        "model": "Ford Mustang",
+        "year": 26118,
+        "color": "Black",
+        "mileage": 50619,
+        "created_at": "2023-10-03T03:23:28.802Z",
+        "updated_at": "2023-10-02T22:16:39.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04924e46-87cb-459f-bf68-ae9774456e57",
+        "model": "Chevrolet Silverado",
+        "year": 69368,
+        "color": "White",
+        "mileage": 74610,
+        "created_at": "2023-10-03T03:57:16.575Z",
+        "updated_at": "2023-10-02T16:57:23.026Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34295b06-55fd-4c6f-a483-51869b297fee",
+        "model": "BMW X5",
+        "year": 75015,
+        "color": "Silver",
+        "mileage": 43615,
+        "created_at": "2023-10-03T02:08:00.095Z",
+        "updated_at": "2023-10-02T10:15:25.419Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "58b2ea8c-803d-4334-ba49-74392d73351d",
+        "rating": 97324,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T11:16:25.616Z",
+        "updated_at": "2023-10-02T16:50:48.755Z",
+        "car_id": "7e00b90e-c308-476f-9577-fe5d95ac89a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f9f320c-c301-403e-b8a8-88aa2a7c0e04",
+        "rating": 18980,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-02T11:34:37.097Z",
+        "updated_at": "2023-10-02T12:12:11.171Z",
+        "car_id": "04924e46-87cb-459f-bf68-ae9774456e57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60d77060-ca7b-47d1-b541-02382b3032d7",
+        "rating": 96630,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-03T06:14:53.335Z",
+        "updated_at": "2023-10-02T21:53:17.914Z",
+        "car_id": "04924e46-87cb-459f-bf68-ae9774456e57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f56d8e92-a474-44e9-9804-c492b1f24245",
+        "rating": 10000,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-03T03:15:49.924Z",
+        "updated_at": "2023-10-02T20:51:22.841Z",
+        "car_id": "c2777bff-b27d-4510-8dca-770f9817eccb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85cefe36-292e-4275-b4aa-890160500261",
+        "rating": 17505,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T15:36:20.823Z",
+        "updated_at": "2023-10-03T00:57:02.457Z",
+        "car_id": "3828d753-b4f7-4e1e-9329-cbe240cd6334",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "cfa94d46-3aca-421b-95e1-39401dedc84f",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-03T04:11:25.720Z",
+        "updated_at": "2023-10-02T08:27:26.208Z",
+        "car_id": "c2777bff-b27d-4510-8dca-770f9817eccb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c69382e-946f-4013-970e-233294982ac2",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-02T19:37:24.756Z",
+        "updated_at": "2023-10-02T13:05:43.844Z",
+        "car_id": "c2777bff-b27d-4510-8dca-770f9817eccb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9cfc0da-2f3c-4559-a9a3-9f8c1db108f3",
+        "issue": "Issue",
+        "status": "Resolved",
+        "created_at": "2023-10-02T22:13:32.222Z",
+        "updated_at": "2023-10-03T02:28:34.782Z",
+        "car_id": "c2777bff-b27d-4510-8dca-770f9817eccb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee27f2b0-ebff-416c-b0f9-5f9a3379ee19",
+        "issue": "Problem",
+        "status": "Closed",
+        "created_at": "2023-10-02T18:54:27.858Z",
+        "updated_at": "2023-10-02T08:27:21.671Z",
+        "car_id": "3828d753-b4f7-4e1e-9329-cbe240cd6334",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7cb01dcf-cef6-423c-8965-13f5c7086a9c",
+        "issue": "Defect",
+        "status": "Pending",
+        "created_at": "2023-10-02T22:13:04.983Z",
+        "updated_at": "2023-10-03T03:57:54.179Z",
+        "car_id": "3828d753-b4f7-4e1e-9329-cbe240cd6334",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "46e6635f-185e-4e3e-a439-e157b68cccdc",
+        "start_date": "2023-10-02T09:51:12.082Z",
+        "end_date": "2023-10-02T22:26:56.772Z",
+        "total_price": 9370,
+        "created_at": "2023-10-03T01:48:29.134Z",
+        "updated_at": "2023-10-03T04:45:53.182Z",
+        "car_id": "04924e46-87cb-459f-bf68-ae9774456e57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58ed8eb3-d8ed-4f72-b035-35aba3170bb7",
+        "start_date": "2023-10-03T02:32:04.241Z",
+        "end_date": "2023-10-02T13:47:57.113Z",
+        "total_price": 27826,
+        "created_at": "2023-10-02T22:21:22.704Z",
+        "updated_at": "2023-10-02T23:48:38.850Z",
+        "car_id": "3828d753-b4f7-4e1e-9329-cbe240cd6334",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f78a5da0-f7ea-496b-ad9d-4a6081a5072d",
+        "start_date": "2023-10-02T06:34:30.955Z",
+        "end_date": "2023-10-02T22:00:08.519Z",
+        "total_price": 46532,
+        "created_at": "2023-10-02T08:50:39.698Z",
+        "updated_at": "2023-10-02T11:56:38.362Z",
+        "car_id": "34295b06-55fd-4c6f-a483-51869b297fee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ee467a9-e051-4b03-89cd-d0bc7471eb36",
+        "start_date": "2023-10-02T21:28:36.058Z",
+        "end_date": "2023-10-02T09:52:03.689Z",
+        "total_price": 25655,
+        "created_at": "2023-10-03T02:19:39.795Z",
+        "updated_at": "2023-10-02T13:59:38.304Z",
+        "car_id": "34295b06-55fd-4c6f-a483-51869b297fee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db691018-3a21-4e68-9da4-eba9f8b71d70",
+        "start_date": "2023-10-03T03:39:46.437Z",
+        "end_date": "2023-10-02T11:40:13.230Z",
+        "total_price": 87507,
+        "created_at": "2023-10-03T00:05:26.109Z",
+        "updated_at": "2023-10-02T13:14:16.983Z",
+        "car_id": "34295b06-55fd-4c6f-a483-51869b297fee",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "73f6f81d-5266-437d-9fc4-aab5e5588109",
+        "email": "Jessyca.Boyle9@roq.tech",
+        "firstName": "Jakob",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22117282",
+        "tenantId": null
+      },
+      {
+        "reference": "3b671143-ea41-4be1-8386-a67b45a076e5",
+        "email": "Geraldine44@roq.tech",
+        "firstName": "Brielle",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1206.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e8748dd-426f-4336-8874-e1fb83915d83",
+        "email": "Nelle98@roq.tech",
+        "firstName": "Eddie",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/579.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fef595d6-21fa-493e-ac29-b9d5595b9892",
+        "email": "Jaime.Parker@roq.tech",
+        "firstName": "Kiera",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aae62995-0206-4139-a907-b80c1a61ee54",
+        "email": "Lamont_Walker3@roq.tech",
+        "firstName": "Brannon",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10001073",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "d6642e05-d663-4f14-b53c-cffce3ab8f2a",
+        "model": "Toyota Camry",
+        "year": 64089,
+        "color": "Red",
+        "mileage": 45539,
+        "created_at": "2023-10-02T19:19:57.921Z",
+        "updated_at": "2023-10-02T14:58:35.697Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29cf82e1-5d2d-4429-b856-515c0cc2dcc5",
+        "model": "Honda Civic",
+        "year": 7211,
+        "color": "Blue",
+        "mileage": 26508,
+        "created_at": "2023-10-02T18:30:45.196Z",
+        "updated_at": "2023-10-02T08:25:41.974Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2293446-9ae3-45a6-9ff5-93ee000021a3",
+        "model": "Ford Mustang",
+        "year": 21528,
+        "color": "Black",
+        "mileage": 29666,
+        "created_at": "2023-10-02T19:43:28.587Z",
+        "updated_at": "2023-10-02T09:52:36.825Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ac05a10-b899-4131-8c9f-78c1a6a5a112",
+        "model": "Chevrolet Silverado",
+        "year": 4445,
+        "color": "White",
+        "mileage": 20432,
+        "created_at": "2023-10-02T11:21:14.405Z",
+        "updated_at": "2023-10-02T11:38:27.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd96a653-0bc9-4712-93b3-5aa912bf621e",
+        "model": "BMW 3 Series",
+        "year": 25385,
+        "color": "Silver",
+        "mileage": 93925,
+        "created_at": "2023-10-02T19:55:41.677Z",
+        "updated_at": "2023-10-02T19:42:34.855Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "76ca7071-5048-4e86-b87a-35e2aed9af7b",
+        "rating": 39643,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T17:03:58.414Z",
+        "updated_at": "2023-10-02T08:21:42.938Z",
+        "car_id": "cd96a653-0bc9-4712-93b3-5aa912bf621e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f33121dc-8918-4cd9-bbde-ee3b46439c3c",
+        "rating": 29488,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-02T13:44:19.936Z",
+        "updated_at": "2023-10-02T21:19:27.738Z",
+        "car_id": "d6642e05-d663-4f14-b53c-cffce3ab8f2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ba6edcc-0018-46d9-8743-e27340a448d0",
+        "rating": 65140,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-02T17:22:53.632Z",
+        "updated_at": "2023-10-02T20:06:32.831Z",
+        "car_id": "cd96a653-0bc9-4712-93b3-5aa912bf621e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5db8a0b7-d8a0-4bc2-8e86-5103880ff497",
+        "rating": 42340,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-02T23:26:59.971Z",
+        "updated_at": "2023-10-03T04:32:26.509Z",
+        "car_id": "d6642e05-d663-4f14-b53c-cffce3ab8f2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71799a31-71e4-4f7b-9705-f1fa88b8c0fa",
+        "rating": 58190,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-03T02:16:40.587Z",
+        "updated_at": "2023-10-02T08:40:32.283Z",
+        "car_id": "cd96a653-0bc9-4712-93b3-5aa912bf621e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "28bacafd-75fb-483f-81d7-aecd6cd17103",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T10:17:51.241Z",
+        "updated_at": "2023-10-02T07:32:59.695Z",
+        "car_id": "d6642e05-d663-4f14-b53c-cffce3ab8f2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "047b82cf-0b48-469c-90e7-4eb6e1b9abe5",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-02T19:05:56.288Z",
+        "updated_at": "2023-10-02T23:05:48.770Z",
+        "car_id": "cd96a653-0bc9-4712-93b3-5aa912bf621e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92965b8f-b64f-4448-bf5d-a5afc4afea3f",
+        "issue": "Crash",
+        "status": "Resolved",
+        "created_at": "2023-10-03T05:02:56.152Z",
+        "updated_at": "2023-10-03T02:20:56.236Z",
+        "car_id": "cd96a653-0bc9-4712-93b3-5aa912bf621e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c221f25f-f965-4cad-83cb-63cce5cf25c3",
+        "issue": "Performance problem",
+        "status": "Closed",
+        "created_at": "2023-10-02T10:39:55.640Z",
+        "updated_at": "2023-10-03T02:22:17.018Z",
+        "car_id": "f2293446-9ae3-45a6-9ff5-93ee000021a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bc05a66-fe93-4cc9-9fec-83cdd2c67349",
+        "issue": "Security vulnerability",
+        "status": "Reopened",
+        "created_at": "2023-10-02T13:51:55.715Z",
+        "updated_at": "2023-10-02T20:28:10.407Z",
+        "car_id": "d6642e05-d663-4f14-b53c-cffce3ab8f2a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c9ff34bb-25fb-4733-88f1-8d8df82b7113",
+        "start_date": "2023-10-02T13:22:29.526Z",
+        "end_date": "2023-10-02T09:01:25.816Z",
+        "total_price": 96367,
+        "created_at": "2023-10-03T05:50:46.703Z",
+        "updated_at": "2023-10-03T03:52:10.535Z",
+        "car_id": "f2293446-9ae3-45a6-9ff5-93ee000021a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "320ecef8-380e-4e8f-bac9-94614ff8e95c",
+        "start_date": "2023-10-02T09:18:21.951Z",
+        "end_date": "2023-10-02T14:19:48.030Z",
+        "total_price": 83570,
+        "created_at": "2023-10-02T20:58:26.355Z",
+        "updated_at": "2023-10-02T20:47:34.135Z",
+        "car_id": "f2293446-9ae3-45a6-9ff5-93ee000021a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb54e2e4-a650-4db0-bb82-9e60ba9a8724",
+        "start_date": "2023-10-02T09:46:02.554Z",
+        "end_date": "2023-10-02T20:22:20.864Z",
+        "total_price": 97208,
+        "created_at": "2023-10-02T06:58:37.828Z",
+        "updated_at": "2023-10-03T05:10:56.343Z",
+        "car_id": "f2293446-9ae3-45a6-9ff5-93ee000021a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d9d9891-242b-4b12-807d-a602d9b9213d",
+        "start_date": "2023-10-02T23:35:49.271Z",
+        "end_date": "2023-10-02T06:35:50.893Z",
+        "total_price": 62260,
+        "created_at": "2023-10-02T11:02:21.753Z",
+        "updated_at": "2023-10-02T07:21:53.979Z",
+        "car_id": "29cf82e1-5d2d-4429-b856-515c0cc2dcc5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebded781-4e23-471f-8e43-48686fc65a4f",
+        "start_date": "2023-10-02T13:33:41.340Z",
+        "end_date": "2023-10-02T15:47:38.591Z",
+        "total_price": 58638,
+        "created_at": "2023-10-02T12:01:26.004Z",
+        "updated_at": "2023-10-03T04:01:23.726Z",
+        "car_id": "cd96a653-0bc9-4712-93b3-5aa912bf621e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d912ba34-64da-4ff1-8c63-7bbee3a74cb7",
+        "email": "Zackery88@roq.tech",
+        "firstName": "Bryana",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18026775",
+        "tenantId": null
+      },
+      {
+        "reference": "c80c32c7-d9ca-4b78-89f8-55ac3decda0d",
+        "email": "Jeanette23@roq.tech",
+        "firstName": "Wilton",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32804289",
+        "tenantId": null
+      },
+      {
+        "reference": "08e732b2-d2ee-48e7-b3ab-4b6cbf35de50",
+        "email": "Bettye.Zieme10@roq.tech",
+        "firstName": "Willie",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52128917",
+        "tenantId": null
+      },
+      {
+        "reference": "e330519e-97e3-4184-a0df-b5e0ef976611",
+        "email": "Cristal29@roq.tech",
+        "firstName": "Alejandrin",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/864.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "860e922f-6370-4a19-ad96-04dac9cf7864",
+        "email": "Jane_Fritsch-Glover46@roq.tech",
+        "firstName": "Sandra",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/923.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "fa2f728f-cdae-4725-b7c3-b6a47bf3df52",
+        "model": "Toyota Camry",
+        "year": 66354,
+        "color": "Red",
+        "mileage": 29659,
+        "created_at": "2023-10-03T04:56:13.525Z",
+        "updated_at": "2023-10-02T20:23:58.042Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82d9639d-f7ac-4b28-a0c6-d6bfd4589848",
+        "model": "Honda Civic",
+        "year": 15625,
+        "color": "Blue",
+        "mileage": 94601,
+        "created_at": "2023-10-02T21:02:42.040Z",
+        "updated_at": "2023-10-02T12:05:59.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d1d1026-3d3b-4a59-b0a5-a3fe4f6a5b92",
+        "model": "Ford Mustang",
+        "year": 38488,
+        "color": "Black",
+        "mileage": 29738,
+        "created_at": "2023-10-03T02:02:59.290Z",
+        "updated_at": "2023-10-03T03:57:09.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b969911-9bb7-477d-9fa0-921eefd885ed",
+        "model": "Chevrolet Silverado",
+        "year": 29407,
+        "color": "White",
+        "mileage": 36709,
+        "created_at": "2023-10-03T01:07:41.397Z",
+        "updated_at": "2023-10-03T05:27:38.990Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df3d7d44-5eaf-495a-b86d-77bb99e991b7",
+        "model": "BMW X5",
+        "year": 85560,
+        "color": "Silver",
+        "mileage": 50663,
+        "created_at": "2023-10-02T19:38:39.691Z",
+        "updated_at": "2023-10-03T06:06:38.178Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "4a34fa5b-d2ec-42eb-90b5-54414ad2d7ed",
+        "rating": 44716,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T21:50:09.163Z",
+        "updated_at": "2023-10-02T15:07:36.150Z",
+        "car_id": "fa2f728f-cdae-4725-b7c3-b6a47bf3df52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7d41830-e823-4a7f-b53b-b01332361c34",
+        "rating": 43113,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-03T01:11:20.285Z",
+        "updated_at": "2023-10-02T15:57:42.890Z",
+        "car_id": "fa2f728f-cdae-4725-b7c3-b6a47bf3df52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c17d906-fd43-47d2-b923-d076a5513e39",
+        "rating": 40704,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-02T13:04:45.801Z",
+        "updated_at": "2023-10-03T05:38:53.552Z",
+        "car_id": "82d9639d-f7ac-4b28-a0c6-d6bfd4589848",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3c4587e-8c99-4f4d-9bd5-699b6a081eee",
+        "rating": 95865,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-02T15:40:26.940Z",
+        "updated_at": "2023-10-03T00:40:15.358Z",
+        "car_id": "4d1d1026-3d3b-4a59-b0a5-a3fe4f6a5b92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9bd6b59-b49b-4446-bc86-5ec6f4c2fc29",
+        "rating": 96316,
+        "comment": "Outstanding experience!",
+        "created_at": "2023-10-02T13:18:47.585Z",
+        "updated_at": "2023-10-03T05:40:48.588Z",
+        "car_id": "4d1d1026-3d3b-4a59-b0a5-a3fe4f6a5b92",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "fac8b5d8-f5c7-46e0-abc4-5895d7b483d3",
+        "issue": "Bug",
+        "status": "Open",
+        "created_at": "2023-10-02T21:46:00.331Z",
+        "updated_at": "2023-10-03T04:07:46.117Z",
+        "car_id": "fa2f728f-cdae-4725-b7c3-b6a47bf3df52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32a7398d-2c18-4bdc-bf20-f9ebf53e599c",
+        "issue": "Error",
+        "status": "In Progress",
+        "created_at": "2023-10-02T09:53:31.300Z",
+        "updated_at": "2023-10-02T08:03:06.760Z",
+        "car_id": "82d9639d-f7ac-4b28-a0c6-d6bfd4589848",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a7c8dcb-21dc-4ccd-a73c-35342faabc8f",
+        "issue": "Security vulnerability",
+        "status": "Resolved",
+        "created_at": "2023-10-03T06:05:30.962Z",
+        "updated_at": "2023-10-03T04:00:41.231Z",
+        "car_id": "fa2f728f-cdae-4725-b7c3-b6a47bf3df52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bf01a03-bafe-42a3-8473-abd95ff5bd64",
+        "issue": "Performance degradation",
+        "status": "Closed",
+        "created_at": "2023-10-02T08:28:42.762Z",
+        "updated_at": "2023-10-02T10:53:10.064Z",
+        "car_id": "6b969911-9bb7-477d-9fa0-921eefd885ed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b9a1b07-6f87-44bc-a4c1-1248a044aa70",
+        "issue": "Data inconsistency",
+        "status": "Reopened",
+        "created_at": "2023-10-02T19:45:40.109Z",
+        "updated_at": "2023-10-03T04:34:44.370Z",
+        "car_id": "fa2f728f-cdae-4725-b7c3-b6a47bf3df52",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4ed1c7a1-2245-41f1-b3f6-21031ff3b4f6",
+        "start_date": "2023-10-02T22:00:15.801Z",
+        "end_date": "2023-10-02T18:55:36.203Z",
+        "total_price": 77491,
+        "created_at": "2023-10-03T02:56:33.372Z",
+        "updated_at": "2023-10-02T23:24:05.923Z",
+        "car_id": "df3d7d44-5eaf-495a-b86d-77bb99e991b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8083358c-566a-4b25-8bba-c72f5e1a561d",
+        "start_date": "2023-10-03T01:51:30.176Z",
+        "end_date": "2023-10-02T14:47:19.587Z",
+        "total_price": 45951,
+        "created_at": "2023-10-02T19:33:54.983Z",
+        "updated_at": "2023-10-02T19:40:12.634Z",
+        "car_id": "df3d7d44-5eaf-495a-b86d-77bb99e991b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0f33dca-7849-4d76-ac04-b9d5b7c0b932",
+        "start_date": "2023-10-02T12:01:57.195Z",
+        "end_date": "2023-10-02T18:42:39.960Z",
+        "total_price": 79495,
+        "created_at": "2023-10-02T18:53:10.533Z",
+        "updated_at": "2023-10-03T00:39:04.991Z",
+        "car_id": "82d9639d-f7ac-4b28-a0c6-d6bfd4589848",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcc658b7-5a0e-4412-ba41-a3e769533d93",
+        "start_date": "2023-10-03T02:23:42.193Z",
+        "end_date": "2023-10-02T20:03:42.404Z",
+        "total_price": 98193,
+        "created_at": "2023-10-03T04:32:09.340Z",
+        "updated_at": "2023-10-03T04:39:08.515Z",
+        "car_id": "4d1d1026-3d3b-4a59-b0a5-a3fe4f6a5b92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff809ee9-e9ff-4392-9af7-3d03e2481fc6",
+        "start_date": "2023-10-02T10:11:31.557Z",
+        "end_date": "2023-10-02T20:20:25.479Z",
+        "total_price": 11766,
+        "created_at": "2023-10-02T14:45:49.778Z",
+        "updated_at": "2023-10-02T12:55:20.380Z",
+        "car_id": "fa2f728f-cdae-4725-b7c3-b6a47bf3df52",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e5816b07-a62d-4eac-a7e8-3baeb18fc409",
+        "email": "Jaden.Grimes@roq.tech",
+        "firstName": "Demarcus",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/970.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6aebd754-6d2a-4bf5-b60a-6802ab285874",
+        "email": "Manley_Gislason62@roq.tech",
+        "firstName": "Lenna",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95634014",
+        "tenantId": null
+      },
+      {
+        "reference": "ce9563ab-1c60-44e5-b1c6-c4c863198539",
+        "email": "Sigrid30@roq.tech",
+        "firstName": "Arvel",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20706330",
+        "tenantId": null
+      },
+      {
+        "reference": "45deb872-b799-4222-bfbc-70c98a2b8368",
+        "email": "Jade.Kshlerin66@roq.tech",
+        "firstName": "Rebekah",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95235160",
+        "tenantId": null
+      },
+      {
+        "reference": "c381866d-f6dd-442a-b3f7-dde676fb9853",
+        "email": "Lorna.West@roq.tech",
+        "firstName": "Gino",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89492075",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "887cec45-2d64-4be6-a673-3447cc645944",
+        "model": "Toyota Camry",
+        "year": 32382,
+        "color": "Red",
+        "mileage": 37597,
+        "created_at": "2023-10-02T11:46:00.181Z",
+        "updated_at": "2023-10-02T19:21:51.911Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "804c293a-1f9a-417b-86cf-313053fa3134",
+        "model": "Honda Civic",
+        "year": 2139,
+        "color": "Blue",
+        "mileage": 47092,
+        "created_at": "2023-10-02T14:53:12.643Z",
+        "updated_at": "2023-10-03T04:35:46.674Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1697eb2-5c3a-45c4-83cd-f1ed25bc63a4",
+        "model": "Ford Mustang",
+        "year": 87505,
+        "color": "Black",
+        "mileage": 91402,
+        "created_at": "2023-10-02T16:55:02.986Z",
+        "updated_at": "2023-10-02T20:59:20.226Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d35ca684-1fbb-4698-9e5c-7b4d948abbcc",
+        "model": "Chevrolet Silverado",
+        "year": 15954,
+        "color": "White",
+        "mileage": 26902,
+        "created_at": "2023-10-02T18:15:37.375Z",
+        "updated_at": "2023-10-03T06:09:23.920Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96ebc604-ad1d-459c-bbb2-609c66c92149",
+        "model": "BMW X5",
+        "year": 97350,
+        "color": "Silver",
+        "mileage": 66680,
+        "created_at": "2023-10-02T14:22:17.012Z",
+        "updated_at": "2023-10-02T10:18:24.187Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "d4928af0-17b5-4ee9-8db4-0944db6faac4",
+        "rating": 43839,
+        "comment": "Great product!",
+        "created_at": "2023-10-02T11:58:45.438Z",
+        "updated_at": "2023-10-02T23:24:17.014Z",
+        "car_id": "96ebc604-ad1d-459c-bbb2-609c66c92149",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fcfff50-d0fe-4121-85bc-8a761a443aad",
+        "rating": 90513,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-03T02:18:25.675Z",
+        "updated_at": "2023-10-03T02:35:59.012Z",
+        "car_id": "f1697eb2-5c3a-45c4-83cd-f1ed25bc63a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3a49983-2860-4975-8d79-cfcbaf6bfd5b",
+        "rating": 77667,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-02T21:22:04.180Z",
+        "updated_at": "2023-10-03T05:51:01.514Z",
+        "car_id": "f1697eb2-5c3a-45c4-83cd-f1ed25bc63a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2f9f988-85e4-4506-95d4-285b6f89670e",
+        "rating": 43748,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-02T21:53:45.414Z",
+        "updated_at": "2023-10-02T22:17:18.851Z",
+        "car_id": "96ebc604-ad1d-459c-bbb2-609c66c92149",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9a1fe3c-c032-47c1-be52-d69f3641b545",
+        "rating": 69824,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-03T04:29:21.489Z",
+        "updated_at": "2023-10-03T04:36:22.505Z",
+        "car_id": "804c293a-1f9a-417b-86cf-313053fa3134",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "5116c9e6-511a-40ff-a926-512cf7a01a74",
+        "issue": "Bug in software",
+        "status": "Open",
+        "created_at": "2023-10-03T04:48:07.120Z",
+        "updated_at": "2023-10-03T00:06:13.475Z",
+        "car_id": "d35ca684-1fbb-4698-9e5c-7b4d948abbcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca14b5dd-fdee-40f1-93be-eead2624875d",
+        "issue": "Network connectivity problem",
+        "status": "In Progress",
+        "created_at": "2023-10-02T15:38:37.138Z",
+        "updated_at": "2023-10-02T08:49:51.913Z",
+        "car_id": "f1697eb2-5c3a-45c4-83cd-f1ed25bc63a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2df147aa-1e4e-4c1c-be81-c1eb4bc47dba",
+        "issue": "Equipment malfunction",
+        "status": "Resolved",
+        "created_at": "2023-10-03T00:41:46.679Z",
+        "updated_at": "2023-10-02T08:37:02.813Z",
+        "car_id": "887cec45-2d64-4be6-a673-3447cc645944",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9c780a7-a240-49f6-877f-199e4d670bd9",
+        "issue": "Data inconsistency",
+        "status": "Pending",
+        "created_at": "2023-10-03T04:40:36.499Z",
+        "updated_at": "2023-10-03T03:18:38.265Z",
+        "car_id": "804c293a-1f9a-417b-86cf-313053fa3134",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "130e67a4-da6e-4698-bf8e-def21373c242",
+        "issue": "Security vulnerability",
+        "status": "Closed",
+        "created_at": "2023-10-02T22:43:45.318Z",
+        "updated_at": "2023-10-03T02:09:57.625Z",
+        "car_id": "804c293a-1f9a-417b-86cf-313053fa3134",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "92b4f58d-2dbd-47d5-bd58-569d6b63971c",
+        "start_date": "2023-10-03T04:20:47.930Z",
+        "end_date": "2023-10-02T13:12:25.690Z",
+        "total_price": 53093,
+        "created_at": "2023-10-02T19:54:23.371Z",
+        "updated_at": "2023-10-02T08:52:36.858Z",
+        "car_id": "d35ca684-1fbb-4698-9e5c-7b4d948abbcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b39151c8-885d-40fa-bd4d-b458607f8b59",
+        "start_date": "2023-10-02T23:03:20.208Z",
+        "end_date": "2023-10-03T02:02:29.761Z",
+        "total_price": 36546,
+        "created_at": "2023-10-02T11:30:56.097Z",
+        "updated_at": "2023-10-02T10:21:31.199Z",
+        "car_id": "887cec45-2d64-4be6-a673-3447cc645944",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05d5e477-094e-4bdd-ac72-75c89566d251",
+        "start_date": "2023-10-02T17:10:29.650Z",
+        "end_date": "2023-10-02T18:53:39.319Z",
+        "total_price": 43836,
+        "created_at": "2023-10-03T00:40:09.666Z",
+        "updated_at": "2023-10-02T09:51:42.567Z",
+        "car_id": "d35ca684-1fbb-4698-9e5c-7b4d948abbcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14972e8a-8301-46f6-a5f3-ead96c5f5c4c",
+        "start_date": "2023-10-02T12:46:31.874Z",
+        "end_date": "2023-10-02T09:58:01.762Z",
+        "total_price": 47829,
+        "created_at": "2023-10-03T00:08:43.411Z",
+        "updated_at": "2023-10-02T14:23:50.690Z",
+        "car_id": "887cec45-2d64-4be6-a673-3447cc645944",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cce61ba7-efc7-4bdc-bd27-34ba2d9c2a26",
+        "start_date": "2023-10-02T10:26:33.067Z",
+        "end_date": "2023-10-03T02:38:52.666Z",
+        "total_price": 10942,
+        "created_at": "2023-10-02T09:42:07.219Z",
+        "updated_at": "2023-10-02T12:34:34.985Z",
+        "car_id": "96ebc604-ad1d-459c-bbb2-609c66c92149",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8b44b999-2a36-4a57-af14-99748ddfcd6c",
+        "email": "Lemuel77@roq.tech",
+        "firstName": "Augustine",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27721615",
+        "tenantId": null
+      },
+      {
+        "reference": "58cf343a-5396-4f8a-b377-f2c4ff133148",
+        "email": "Ardella.Fadel97@roq.tech",
+        "firstName": "Armando",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52933916",
+        "tenantId": null
+      },
+      {
+        "reference": "4cd6d2f1-711a-4f5b-8ce7-e3989469636b",
+        "email": "Carmen52@roq.tech",
+        "firstName": "Sister",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "740fb82e-b0a7-4a04-81d0-b76e5ffba1c2",
+        "email": "Sienna.Bergnaum@roq.tech",
+        "firstName": "Marcelina",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58779099",
+        "tenantId": null
+      },
+      {
+        "reference": "76edfed4-2d95-41fe-99b4-490e53b8f974",
+        "email": "Elnora.Buckridge84@roq.tech",
+        "firstName": "Michael",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/30.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
